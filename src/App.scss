@@ -1,0 +1,30 @@
+@import './Button/Button.scss';
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.calc-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 80vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .calc-wrapper {
+    width: 80vh;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    height: 3.5em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: #333;
+    transition: all 0.5s linear;
+    background: #a9a9a9;
+
+    &:hover {
+        background: #fff;
+        font-weight: bold;
+        transition: all 0.3s linear;
+    }
+}
+
+.operator {
+    background: #ecb316;
+    color: #333;
+    font-weight: bold;
+
+    &:hover {
+        background: #cccc58;
+    }
+}
+
+
